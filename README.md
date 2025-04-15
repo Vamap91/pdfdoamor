@@ -1,19 +1,15 @@
-# 🎈 Blank app template
+# PDF do Amor 📘❤️
 
-A simple Streamlit app template for you to modify!
+Um app em Streamlit que permite subir um PDF e fazer perguntas com IA (OpenAI) feito pelo Vinicius Paschoa, Espero que goste !!!
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Como usar
 
-### How to run it on your own machine
+1. Suba seu PDF no app.
+2. Digite sua pergunta.
+3. A IA responde com base no conteúdo do documento.
 
-1. Install the requirements
+## Rodando localmente
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
